@@ -6,14 +6,14 @@ img {
   width: 200px;
 }
 
-
 .west {
-  transform: rotate(.5turn);
+  transform: rotate(0.5turn);
 }
 
 .north {
-  transform: rotate(-.25turn);
+  transform: rotate(-0.25turn);
 }
+
 .south {
-  transform: rotate(.25turn);
+  transform: rotate(0.25turn);
 }

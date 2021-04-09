@@ -31,6 +31,7 @@ var movement = [0, 0];
 function move(event) {
   var isMoving = event.keyCode === 32;
   var carDirection = car.direction;
+
   if (isMoving && carDirection === 'east') {
     movement[0] += 3;
   }
@@ -45,4 +46,4 @@ function move(event) {
   }
 }
 
-$car.style.transform = 'translate(' + movement[0] + 'px, ' + movement[1] + 'px)';
+// $car.style.transform = 'translate(' + movement[0] + 'px, ' + movement[1] + 'px)';
